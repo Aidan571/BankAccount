@@ -14,5 +14,7 @@ public static void main(String[]args){
   System.out.println(b1.withdraw(-4.25));
   System.out.println(b1.getBalance());
   System.out.println(b1.toString());
+  System.out.println(b1.authenticate("hi"));
+  System.out.println(b1.authenticate("hello"));
   }
 }
